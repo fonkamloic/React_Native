@@ -165,12 +165,13 @@ const styles = StyleSheet.create({
 
     todoFrame: {
          flexDirection: 'row',
-         padding: 10,
+         paddingLeft: 30,
+         paddingRight: 60,
          alignItems: 'flex-start',
-        margin: 5,
+        marginTop: 5,
          justifyContent: 'flex-start',
         backgroundColor: 'lightgreen',
-         borderRadius: 4,
+         borderRadius: 13,
          borderColor: 'black'
      },
 
@@ -210,15 +211,15 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         backgroundColor: "white",
         borderRadius: 5,
-        paddingLeft: 25,
-        paddingRight: 25,
-        padding: 9,
+        paddingLeft: 10,
+        paddingRight: 10,
+        padding: 5,
         borderColor: "white",
         borderWidth: 0.5, 
     },
 
     textButton: {
-        fontWeight: "bold",
+        fontWeight: "500",
     },
 
     viewArea: {
@@ -251,7 +252,7 @@ const styles = StyleSheet.create({
 
     counterText: {
         fontStyle: "italic",
-        fontSize: 23,
+        fontSize: 15,
     }
 });
 
